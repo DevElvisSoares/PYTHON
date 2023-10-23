@@ -3,4 +3,4 @@ salario_atual = float(input("Informe o valor do seu salario em reais: "))
 reajuste = float(input("Informe o valor do reajuste em porcentagem: "))
 valor_do_reajuste = salario_atual *  reajuste / 100
 salario_com_reajuste = salario_atual + valor_do_reajuste
-print(f'O do salário com reajuste é R$ {salario_com_reajuste} ')
+print(f'O valor do salário com reajuste é R$ {salario_com_reajuste} ')
