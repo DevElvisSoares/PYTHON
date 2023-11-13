@@ -27,4 +27,9 @@ print(lista[-2])
 del lista [-2] # deleta pelo indice
 print(lista[-2])
 
-lista.remove('back')
+lista.remove('back') # remove um item especifico
+print(lista)
+# lista.pop() remove o ultimo item da lista
+# valor_do_pop = lista.pop()
+# lista.insert(0, Amontada) = adiciona um item em qualquer lugar
+
