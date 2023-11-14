@@ -1,7 +1,9 @@
 # uma lista é representadas por []
-# len - metodo que retona a quantiddade de itens de  uma lista 
+# len - metodo que retona a quantiddade de itens de uma lista 
 # todo metodo por obrigação retorna uma valor
-'''lista = []
+# Lista tem seu proprio CRUD
+# Metodos: append, insert, del, remove, pop e len
+lista = []
 print (lista, type (lista))
 print (len(lista))
 
@@ -13,7 +15,7 @@ print (lista, type (lista))
 print (len(lista))
 
 lista.append('front') # coloca valores no final da lista
-print(lista, type (lista))'''
+print(lista, type (lista))
 #          0       1      2   3    4
 # reverso -5      -4     -3  -2   -1
 lista = ['back', 'tarde', 21, True, 8.8]
@@ -33,3 +35,5 @@ print(lista)
 # valor_do_pop = lista.pop()
 # lista.insert(0, Amontada) = adiciona um item em qualquer lugar
 
+# CRUD - Create, Read, Update, Delete
+#        Criar,  Ler,  Atualizar, Deletar  
