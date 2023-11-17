@@ -1,5 +1,5 @@
 # Questão 1.
-'''lista = [1, 2, 3, 4, 5]
+lista = [1, 2, 3, 4, 5]
 print(lista)
 del lista [2]
 print(lista)
@@ -29,25 +29,29 @@ lista_de_medias = [media1, media2, media3]
 print(lista_de_medias)
 
 # Questão 4.
-letra1 = input('Digite a primeira letra: ')
-letra2 = input('Digite a segunda letra: ')
-letra3 = input('Digite a terceira letra: ')
-letra4 = input('Digite a quarta letra: ')
-letra5 = input('Digite a quinta letra: ')
-
 lista_consoante = []
-
+letra1 = input('Digite a primeira letra: ')
 if letra1 != 'a' and letra1 != 'e' and letra1 and letra1 != 'i' and 'o' and letra1 != 'u':
+    print('É consoante')
     lista_consoante = [letra1]
+letra2 = input('Digite a segunda letra: ')
 if letra2 != 'a' and letra2 != 'e' and letra2 and letra2 != 'i' and 'o' and letra2 != 'u':
+    print('É consoante')
     lista_consoante.append(letra2)
-if letra3 != 'a' and letra3 != 'e' and letra3 and letra3 != 'i' and 'o' and letra3 != 'u':
+letra3 = input('Digite a terceira letra: ')
+if letra3 != 'a' and letra3 != 'e' and letra3 and letra3 != 'i' and letra3 != 'o' and letra3 != 'u':
+    print('É consoante')
     lista_consoante.append(letra3)
-if letra4 != 'a' and letra4 != 'e' and letra4 and letra4 != 'i' and 'o' and letra4 != 'u':
+letra4 = input('Digite a quarta letra: ')
+if letra4 != 'a' and letra4 != 'e' and letra4 and letra4 != 'i' and letra4 != 'o' and letra4 != 'u':
+    print('É consoante')
     lista_consoante.append(letra4)
-if letra5 != 'a' and letra5 != 'e' and letra5 and letra5 != 'i' and 'o' and letra5 != 'u':
+letra5 = input('Digite a quinta letra: ')
+if letra5 != 'a' and letra5 != 'e' and letra5 and letra5 != 'i' and letra5 != 'o' and letra5 != 'u':
     lista_consoante.append(letra5)
-print(lista_consoante)'''
+    print('É consoante')
+print(lista_consoante)
+
 
 # Questão 5.
 lista_inteiros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
