@@ -31,3 +31,13 @@ set03.discard('Elvis')
 print(set03)
 set03.clear() # Esse comando limpa o set ou conjunto
 print(set03)
+
+set04 = {1, 2, 3, 4, 5}
+set05 = {4, 5, 6, 7, 8}
+set06 = set04 | set05 # União de conjuntos
+print(set06)
+set06 = set04 & set05 # Interseção de conjuntos
+print(set06)
+
+set06 = set04 - set05
+print(set06)
